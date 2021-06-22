@@ -1,0 +1,80 @@
+body {
+    font-family: 'Syne Tactile', cursive;
+    background-color: rgb(188, 250, 252);
+}
+
+.header_div {
+    background: #10075e;
+    color: rgb(255, 198, 228);
+    font-size: 60px;
+}
+
+.header_div img {
+    width: 100px;
+}
+
+.main_div {
+    background: rgb(222, 249, 250);
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid blue;
+}
+
+.main_div label {
+    background-color: burlywood;
+    width: 310px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 18px gray;
+}
+
+#camera,
+#result {
+    border: 2px solid whitesmoke;
+    width: 310px;
+    height: 300px;
+    box-shadow: 5px 5px 18px gray;
+}
+
+.main_div button {
+    width: 310px;
+    font-size: 16px;
+    box-shadow: 5px 5px 18px gray;
+    border: 1px solid;
+}
+
+.footer_div {
+    margin-bottom: 50px;
+}
+
+.footer_div h4 {
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px white;
+}
+
+.footer_div img {
+    width: 70px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: #6c757d;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    line-height: 3;
+    text-align: center;
+}
+
+#check_button
+{
+    color: darkblue;
+    background-color: antiquewhite;
+}
+#snapshot_button
+{
+    color: darkblue;
+    background-color: antiquewhite;
+}
